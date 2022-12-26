@@ -3,7 +3,8 @@
  *
  *       Filename:  segmentation.c
  *
- *    Description:  Cut the sudoku image to sent it to the neural network
+ *    Description:  Cut the sudoku image in small images to sent it to the 
+ *                  neural network
  *
  *        Version:  1.0
  *        Created:  29/11/2022 08:05:45 PM

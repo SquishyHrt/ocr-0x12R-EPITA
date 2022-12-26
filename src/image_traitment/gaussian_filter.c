@@ -3,7 +3,7 @@
  *
  *    Filename:  gaussian_filter.c
  *
- *    Description: Perform gaussian filter on an image
+ *    Description: Perform gaussian filter on an image with linear complexity
  *
  *        Version:  1.0
  *        Created:  09/28/2022 07:40:29 PM
@@ -11,7 +11,7 @@
  *       Compiler:  gcc
  *
  *         Author:  Paolo.Wattebled
- *   Organization: Fach'OCR
+ *   Organization:  0x12R
  *
  * =====================================================================================
  */

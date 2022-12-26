@@ -7,7 +7,6 @@
 #include <time.h>
 #include <wctype.h>
 
-#include "linkedlist.h"
 #include "struct.h"
 #include "utilis_image.h"
 #include "utilis_matrix.h"

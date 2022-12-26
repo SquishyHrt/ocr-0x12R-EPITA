@@ -1,0 +1,13 @@
+*~
+*.swp
+build/
+*.o
+*.d
+*.so
+main
+.vscode/
+.idea/
+.DS_Store
+weights.data
+res_*.jpeg
+solved.jpeg

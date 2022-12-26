@@ -1,3 +1,21 @@
+/*
+ * =====================================================================================
+ *
+ *       Filename:  adaptive_threshold.c
+ *
+ *    Description:  Create a new iamge where we draw the result of the sudoku
+ *                  to display on the gui
+ *
+ *        Version:  1.0
+ *        Created:  11/26/2022 12:06:25 AM
+ *       Revision:  none
+ *       Compiler:  gcc
+ *
+ *         Author:  Mathieu Pastre
+ *   Organization:  0x12R
+ *
+ * =====================================================================================
+ */
 #include "include/write_number.h"
 
 void resize_draw(Image *src, Image *number_img, int x, int y, int dimension,

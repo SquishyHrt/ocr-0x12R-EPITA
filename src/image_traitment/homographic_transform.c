@@ -95,6 +95,8 @@ void homographic_transform(Image *image, Square *square, int size)
             errx(EXIT_FAILURE,
                  "Error while allocating pixels pointers for the image");
     }
+    
+    // To avoid segfault when resizing an image without name (segmented one)
     if (image->path != NULL)
     {
         new_image.path = calloc(strlen(image->path) + 1, sizeof(char));

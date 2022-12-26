@@ -23,7 +23,6 @@
 #define DILATAION_RANGE 3
 #define EROSION_RANGE 3
 
-// Compute adaptive threshold on the image
 int find_adaptative_threshold(Image *image, int y, int x)
 {
     int w = image->width;

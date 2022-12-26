@@ -1,3 +1,21 @@
+/*
+ * =====================================================================================
+ *
+ *       Filename:  blob.c
+ *
+ *    Description:  Compute blob detection to find the biggest block of pixel /
+ *                  the sudoku grid. Then find the corners of this blob
+ *
+ *        Version:  1.0
+ *        Created:  11/26/2022 12:06:25 AM
+ *       Revision:  none
+ *       Compiler:  gcc
+ *
+ *         Author:  Paolo Wattebled
+ *   Organization:  Ox12R
+ *
+ * =====================================================================================
+ */
 #include "include/blob.h"
 
 int blob_detection(Image *image, Dot start, unsigned int prev, int new_color)

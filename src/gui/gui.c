@@ -98,7 +98,7 @@ void file_select(GtkFileChooserButton* button)
     gtk_label_set_text(GTK_LABEL(label_one), (const gchar*)"Loaded image");
     SDL_Surface* surface = IMG_Load(filename_image);
 
-    if (&image != NULL)
+    if (image.pixels != NULL || image.path != NULL)
         free_image(&image);
 
     image = create_image(surface, surface->w, surface->h);
